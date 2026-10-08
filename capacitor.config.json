@@ -1,0 +1,14 @@
+{
+  "appId": "com.sdguthrie.shuttle",
+  "appName": "PergiBalik",
+  "webDir": "cap-shell",
+  "server": {
+    "url": "https://van-shuttle-tracker.vercel.app",
+    "cleartext": false,
+    "errorPath": "index.html"
+  },
+  "android": {
+    "useLegacyBridge": true,
+    "backgroundColor": "#000000"
+  }
+}

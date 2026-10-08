@@ -1,0 +1,42 @@
+# dependencies & builds
+node_modules
+.next
+out
+*.tsbuildinfo
+
+# secrets — never commit
+.env
+.env.*
+!.env.example
+.supabase-secrets
+.vercel
+
+# local helper scripts, logs, test output (machine-specific)
+.tools.sh
+.*.sh
+*.log
+.test/
+.shot-*
+.tile-*
+.DS_Store
+
+# build artefacts & bundles
+*.apk
+*.aab
+*.zip
+scripts/*.tgz
+
+# supabase CLI local state
+supabase/.temp
+supabase/.branches
+supabase/cleanup.sql
+
+# android (also see android/.gitignore)
+android/app/build
+android/build
+android/.gradle
+android/.kotlin
+android/local.properties
+android/app/src/main/assets/public
+android/app/src/main/assets/capacitor.config.json
+android/app/src/main/assets/capacitor.plugins.json

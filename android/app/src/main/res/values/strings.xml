@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">PergiBalik</string>
+    <string name="title_activity_main">PergiBalik</string>
+    <string name="package_name">com.sdguthrie.shuttle</string>
+    <string name="custom_url_scheme">com.sdguthrie.shuttle</string>
+    <string name="capacitor_background_geolocation_notification_channel_name">Van location sharing</string>
+    <string name="capacitor_background_geolocation_notification_color">#111111</string>
+    <string name="capacitor_background_geolocation_notification_icon">drawable/ic_tracking</string>
+</resources>
