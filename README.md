@@ -24,3 +24,9 @@ npx cap sync android
 cd android && ./gradlew assembleDebug   # -> app/build/outputs/apk/debug/app-debug.apk
 ```
 UI/API changes only need a Vercel redeploy — the APK loads the live site.
+
+## Repository & deploys
+- Code: https://github.com/izzuddin-noormy/pergibalik (private)
+- Vercel project `van-shuttle-tracker` deploys automatically: push to `main` → production, other branches → preview URLs.
+- Secrets (`SUPABASE_URL`, `SUPABASE_SERVICE_ROLE_KEY`, `AUTH_SECRET`) live only in Vercel env vars, never in the repo. See `.env.example`.
+- New developer setup: see `HANDOVER.md`.
